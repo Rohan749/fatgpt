@@ -3,7 +3,6 @@ import { footerDescription } from "./constants";
 import Image from "next/image";
 
 import dexscreener from "../../public/images/dexlogo.png";
-import { BsTelegram, BsTwitter } from "react-icons/bs";
 import { FaTelegram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 

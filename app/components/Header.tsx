@@ -5,9 +5,8 @@ import { NavLinks } from "./constants";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { CiBurger } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { CgClose, CgCross } from "react-icons/cg";
+import { CgClose } from "react-icons/cg";
 
 const Header = () => {
   useEffect(() => {

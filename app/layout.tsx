@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Montserrat } from "next/font/google";
+import { Anton, Montserrat } from "next/font/google";
 
 import { cn } from "../lib/utils";
 
@@ -13,17 +13,7 @@ const fontSans = Montserrat({
 export const metadata: Metadata = {
   title: "FAT-GPT",
   description:
-    "VisionarLabs specializes in building innovative and efficient Minimum Viable Products (MVPs) that empower businesses to validate ideas, captivate audiences, and scale seamlessly. From sleek web apps to high-converting landing pages and robust integrations, we turn your vision into reality.",
-  keywords: [
-    "MVP development",
-    "web applications",
-    "landing pages",
-    "SEO-ready content",
-    "modern scalable tech",
-    "VisionarLabs",
-    "startup solutions",
-    "product development agency",
-  ],
+    "",
 };
 
 export default function RootLayout({

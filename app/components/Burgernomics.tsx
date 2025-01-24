@@ -4,10 +4,6 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import burger from "../../public/images/burger.png";
 import { burgernomics } from "./constants";
-import { stringReducer } from "../utils/utils";
-import { CgCopy } from "react-icons/cg";
-import { BiCopyAlt } from "react-icons/bi";
-import { BsCopy } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

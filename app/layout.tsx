@@ -10,6 +10,12 @@ const fontSans = Montserrat({
   variable: "--font-sans",
 });
 
+const fontAnton = Anton({
+  subsets: ["latin"],
+  weight: "400", // Fixing the error by including the weight property
+  variable: "--font-anton",
+});
+
 export const metadata: Metadata = {
   title: "FAT-GPT",
   description:
@@ -37,7 +43,8 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          fontSans.variable,
+          fontAnton.variable
         )}
       >
         {children}

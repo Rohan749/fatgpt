@@ -16,10 +16,10 @@ const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <header
-      //   data-aos-delay="600"
-      //   data-aos-duration="600"
-      //   data-aos="fade-down"
-      className="relative z-50 px-3 sm:px-5 lg:px-16 flex items-center justify-between "
+        data-aos-delay="600"
+        data-aos-duration="600"
+        data-aos="fade-down"
+      className="relative z-50 px-3 sm:px-5 lg:px-16 flex items-center justify-between w-full"
     >
       <Image height={80} src={logo} alt="Large Language Model" />
       <div className="hidden md:flex items-center gap-3 font-bold">

@@ -11,37 +11,37 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="hero_section px-3 sm:px-5 lg:px-16">
+    <section id="hero" className="hero_section px-3 sm:px-5 lg:px-16">
       <Image
         src={aiImg}
         alt="Your Image"
         layout="fill"
         objectFit="cover"
-        style={{ opacity: 0.2 }}
+        style={{ opacity: 0.2, maxWidth:"1500px", margin: "auto" }}
       />
-      <div className="flex flex-col items-center justify-center gap-3 text-center h-[80vh]  relative z-40 bg-transparent text-xl">
+      <div className="flex flex-col items-center justify-center gap-3 text-center h-[80vh] max-h-[50rem]  relative z-40 bg-transparent text-xl">
         <div className="text-4xl lg:text-5xl font-bold" 
-        // data-aos="fade-up"
+        data-aos="fade-up"
         >
           Ask FatGPT anything
         </div>
         <div 
-        // data-aos-delay="200" data-aos="fade-up"
+        data-aos-delay="200" data-aos="fade-up"
         className="text-lg"
         >
           Trained on burgers. Optimized for gains.
         </div>
         <div
-          // data-aos-delay="400"
-          // data-aos="fade-up"
+          data-aos-delay="400"
+          data-aos="fade-up"
           className="font-bold text-2xl"
         >
           Chat with LLM
         </div>
         <div
-          // data-aos-delay="800"
-          // data-aos="fade"
-          // data-aos-duration="1200"
+          data-aos-delay="800"
+          data-aos="fade"
+          data-aos-duration="1200"
           className="p-4 bg_orange w-[20rem] sm:w-[25rem] lg:w-[31rem] rounded-full flex items-center gap-2"
         >
           <input

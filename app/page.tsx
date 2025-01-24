@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const page = () => {
   return (
-    <div>
+    <div className='max-w-[2000px] overflow-x-hidden flex flex-col items-center m-auto'>
       <Header />
       <Hero />
       <About />

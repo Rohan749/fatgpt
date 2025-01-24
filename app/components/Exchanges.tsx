@@ -13,7 +13,7 @@ const Exchanges = () => {
     }
 
   return (
-    <section className='bg_orange p-3 sm:p-5 lg:p-16'>
+    <section id='exchanges' className='bg_orange w-full p-3 sm:p-5 lg:p-16'>
          <div className='flex flex-col items-center justify-center'>
             <button onClick={handleCopy} className='copy_btn p-3 bg_darkorange rounded-full flex items-center justify-center gap-2 hover:scale-99 transition-all w-[13rem]'>
               <span className='font-bold'> CA: {stringReducer(contractAddress)}</span> 

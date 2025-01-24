@@ -9,19 +9,19 @@ import lbank from "../../public/images/lbank.png";
 export const NavLinks = [
   {
     name: "About",
-    link: "",
+    link: "#about",
   },
   {
     name: "Burgonomics",
-    link: "",
+    link: "#burgernomics",
   },
   {
     name: "Exchanges",
-    link: "",
+    link: "#exchanges",
   },
   {
     name: "Links",
-    link: "",
+    link: "#footer",
   },
 ];
 

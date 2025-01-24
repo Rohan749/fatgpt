@@ -11,18 +11,18 @@ const About = () => {
   }, []);
 
   return (
-    <section className="p-3 sm:p-5 lg:p-16 flex flex-col items-center gap-2 bg-white relative z-50 text-xl">
+    <section id="about" className="p-3 sm:p-5 lg:p-16 flex flex-col items-center gap-2 bg-white relative z-50 text-xl">
       <div
-        // data-aos="fade"
-        // data-aos-duration="600"
+        data-aos="fade"
+        data-aos-duration="600"
         className="text-4xl md:text-5xl text_orange"
       >
         WHAT IS LLM?
       </div>
       <div
-        // data-aos="fade"
-        // data-aos-duration="600"
-        // data-aos-delay="300"
+        data-aos="fade"
+        data-aos-duration="600"
+        data-aos-delay="300"
         className="text-center text-sm md:text-lg lg:w-[39rem]"
       >
         LLM is not just another Large Language Model, she&apos;s 160kg of pure AI
@@ -31,12 +31,12 @@ const About = () => {
         can definetly run.
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-5">
-        {features.map((feature) => {
+        {features.map((feature, index) => {
           return (
             <div
-            //   data-aos="fade-left"
-            //   data-aos-delay={`${index + 2}00`}
-            //   data-aos-duration="600"
+              data-aos="fade-left"
+              data-aos-delay={`${index + 2}00`}
+              data-aos-duration="600"
               key={feature.title}
             >
               <div className="rounded-xl outline p-5 container">
@@ -50,8 +50,8 @@ const About = () => {
 
       <div className="quotation my-32 flex flex-col lg:flex-row items-center justify-center gap-10">
         <p
-        //   data-aos-duration="400"
-        //   data-aos="fade-left"
+          data-aos-duration="400"
+          data-aos="fade-left"
           className="lg:text-4xl text-right font-bold lg:w-[43rem]"
         >
           &quot;I&apos;ve been in the trenches for a while &mdash; never seen a
@@ -59,8 +59,8 @@ const About = () => {
           mindshare.&quot;
         </p>
         <Image
-        //   data-aos-duration="400"
-        //   data-aos="fade-right"
+          data-aos-duration="400"
+          data-aos="fade-right"
           src={profile}
           height={150}
           alt=""
